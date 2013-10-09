@@ -21,4 +21,4 @@ Also there will be a base for discussions and issue tracking.
 [6. Developers](docs/dev/readme.md)
 
 
-[logo]: https://github.com/swarnat/vtigerCRM-Workflow-Designer-Documentation/blob/vtiger-5.4.0/images/image_01.jpg?raw=true "Workflow Designer Logo"
+[logo]: /images/image_01.jpg?raw=true "Workflow Designer Logo"
