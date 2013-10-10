@@ -1,5 +1,6 @@
 Task: Send eMail
 =================================
+<img src='../../images/task_mail.png' align='right'>
 
 - could send an email to one ore multiple receivers with all default options
 - Also there is the option to attach an PDFMaker Template, if you use this extension

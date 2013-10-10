@@ -1,5 +1,6 @@
 Task: Delay 
 =========================================
+<img src='../../images/task_delay.png' align='right'>
 
 This task allows you to insert one or more delays into your workflows, which pause the execution until a given date/time will be reach.
 

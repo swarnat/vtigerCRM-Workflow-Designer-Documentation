@@ -1,5 +1,6 @@
 Task: Add Product to Invoice/Quote/SalesOrder
 ===============================================
+<img src='../../images/task_addproduct.png' align='right'>
 
 This task allows you to add a product to a existing Invoice/Quote/...
 

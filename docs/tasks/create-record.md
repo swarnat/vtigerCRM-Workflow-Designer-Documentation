@@ -1,5 +1,6 @@
 Task: Create Record/Task/Event
 =============================================
+<img src='../../images/task_creator.png' align='right'>
 
 You could create records, which don't have to be related to the record of the workflow.
 
