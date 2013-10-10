@@ -1,9 +1,9 @@
 Task: Create Record/Task/Event
 =============================================
 
-You could create records, which don’t have to be related to the record of the workflow.
+You could create records, which donï¿½t have to be related to the record of the workflow.
 
-###### Calender entries
+#### Calender entries
 
 There are special tasks for calendar entries, because they have to be created in a special way
 
