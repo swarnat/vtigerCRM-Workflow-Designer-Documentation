@@ -33,8 +33,8 @@ This will request 3 variable on start, which will result in this form:
 
 You could access these variables with the `$env["value"]["..."]` variable. In this example use
 
-`$env["value"]["field_1"]
-$env["value"]["field_2"] # "on" if checked
+`$env["value"]["field_1"]  
+$env["value"]["field_2"] # "on" if checked  
 $env["value"]["field_3"]`
 
 Trigger
