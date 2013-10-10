@@ -1,4 +1,4 @@
-Task: Start 
+Task: Delay 
 =========================================
 
 This task allows you to insert one or more delays into your workflows, which pause the execution until a given date/time will be reach.
@@ -21,4 +21,4 @@ You could combine multiple of this options, to use this universally
 	- Here you could integrate your own custom function
 	- You have to return an Unix Timestamp, which replace the base date (All other options will be applied to this date!)
 	
-If you want to **wait until a field has a configured value**, please use combine the usage of delay and conditions. (For example if you want to wait until a checkbox was set)
+If you want to **wait until a field has a configured value**, please combine the features of delay and conditions. (For example if you want to wait until a checkbox was set)
