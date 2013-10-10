@@ -25,17 +25,17 @@ This Task is the start of all workflows and this is allowed only once in a workf
 
 ###### Example
 
-![configured start fields](/images/startfields.png)
+![configured start fields](../../images/startfields.png)
 
 This will request 3 variable on start, which will result in this form:
 
-![configured start fields](/images/startfields2.png)
+![configured start fields](../../images/startfields2.png)
 
 You could access these variables with the `$env["value"]["..."]` variable. In this example use
 
-`$env["value"]["field_1"]  
-$env["value"]["field_2"] # "on" if checked  
-$env["value"]["field_3"]`
+`$env["value"]["field_1"]`  
+`$env["value"]["field_2"] # "on" if checked`  
+`$env["value"]["field_3"]`  
 
 #### Trigger
 
