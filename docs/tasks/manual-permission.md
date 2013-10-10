@@ -1,5 +1,6 @@
 Task: manual permission
 ===========================================
+<img src='../../images/permission.png' align='right'>
 
 This task allows to stop an automatic workflow and manually choose the path, the record should take.
 > **Example**: this allows to check anrecord, before an email will be send*
