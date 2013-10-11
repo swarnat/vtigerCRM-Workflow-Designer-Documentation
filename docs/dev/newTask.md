@@ -7,7 +7,7 @@ This could be done for a single system or inside a module you create.
 Firstly you have to create the type inside the database.
 This could be done with the Workflow2 Class.
 
-`
+```php
 require_once("modules/Workflow2/Workflow2.php");
 $objWorkflow = new Workflow2();
 $objWorkflow->addType(
@@ -25,7 +25,7 @@ $objWorkflow->addType(
     "<singleModule>",
     "<supporturl>"
 );
-`
+```
 
 **<slug>** – STRING key of the task
 **<classname>** – STRING classname of the task
