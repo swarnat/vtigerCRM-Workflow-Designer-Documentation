@@ -27,20 +27,20 @@ $objWorkflow->addType(
 );
 ```
 
-**<slug>** – STRING key of the task
-**<classname>** – STRING classname of the task
-**<file>** – STRING filename, which contains the task
-**<mainmodule>** – STRING module, which contain the task
-**<output>** – ARRAYoutput points of the task
-	array with sub-arrays
-	first element key, second label
-**<persons>** - ARRAY person input points  of the task
-	array with sub-arrays
-	first element key, second label
-**<text>** – STRING task, which is display below the task
-**<category>** – STRING category, which contain the task in administration
-**<input>** – INT have this point an input point? (have to be set to “1?)
-**<styleClass>** – STRING css class, which will be assigned to the task block
-**<backgroundimage>** – backgroundimage of the task block
-**<singleModule>** – ARRAY or “” List of modules,  for which this task is valid
-**<supporturl>** – STRING - URL to a Support page for this task (Button in configuration)
+**<slug>** – *STRING* key of the task  
+**<classname>** – *STRING* classname of the task  
+**<file>** – *STRING* filename, which contains the task  
+**<mainmodule>** – *STRING* module, which contain the task  
+**<output>** – *ARRAY* output points of the task  
+	array with sub-arrays  
+	first element key, second label  
+**<persons>** - *ARRAY* person input points  of the task  
+	array with sub-arrays  
+	first element key, second label  
+**<text>** – *STRING* task, which is display below the task  
+**<category>** – *STRING* category, which contain the task in administration  
+**<input>** – *INT* have this point an input point? (have to be set to "1")  
+**<styleClass>** – *STRING* css class, which will be assigned to the task block  
+**<backgroundimage>** – backgroundimage of the task block  
+**<singleModule>** – *ARRAY* or “” List of modules,  for which this task is valid  
+**<supporturl>** – *STRING* - URL to a Support page for this task (Button in configuration)  
