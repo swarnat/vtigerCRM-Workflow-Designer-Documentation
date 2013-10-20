@@ -1,6 +1,25 @@
 Tasks
 =========================================
 
+[add Product](docs/tasks/add-product.md)  
+[convert to Invoice](docs/tasks/convert-to-invoice.md)  
+[Create Record](docs/tasks/create-record.md)  
+[Create Invoice/Quote/...](docs/tasks/create-inventory.md)  
+[CSV import](docs/tasks/csv-import.md)  
+[Delay](docs/tasks/delay.md)  
+[Duplicate Record](docs/tasks/duplicate-record.md)  
+[execute Expression with external Record](docs/tasks/external-exec-expression.md)  
+[execute Workflow with external Record](docs/tasks/external-exec-expression.md)  
+[exist related Record](docs/tasks/exist-related-record.md)  
+[redirect User to a URL](docs/tasks/redirect-user.md)  
+[request Authorization](docs/tasks/manual-permission.md)  
+[Set Value](docs/tasks/set Value.md)  
+[Send Mail](docs/tasks/send-mail.md)  
+[Start](docs/tasks/start.md)  
+[stop PHP](docs/tasks/stop-php.md)  
+
+
+
 A Task is one action you integrate into your workflow. 
 You could combine multiple Tasks in one Workflow and combine them with a path. 
 Every Record which release the Workflow trigger, follow these paths and execute tasks they reach.
