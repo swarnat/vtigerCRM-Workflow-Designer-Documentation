@@ -1,22 +1,61 @@
 Tasks
 =========================================
 
+[Start](docs/tasks/start.md)  
+
+##### Order management  
 [add Product](docs/tasks/add-product.md)  
 [convert to Invoice](docs/tasks/convert-to-invoice.md)  
-[Create Record](docs/tasks/create-record.md)  
 [Create Invoice/Quote/...](docs/tasks/create-inventory.md)  
-[CSV import](docs/tasks/csv-import.md)  
-[Delay](docs/tasks/delay.md)  
+
+##### record management  
+create comment  
+[Create Record](docs/tasks/create-record.md)  
 [Duplicate Record](docs/tasks/duplicate-record.md)  
-[execute Expression with external Record](docs/tasks/external-exec-expression.md)  
-[execute Workflow with external Record](docs/tasks/external-exec-expression.md)  
+[Set Value](docs/tasks/set Value.md)  
+create Task
+create Event
+remove Record
+
+##### flow control  
+[authorization Request](docs/tasks/manual-permission.md)  
+[Delay](docs/tasks/delay.md)  
 [exist related Record](docs/tasks/exist-related-record.md)  
 [redirect User to a URL](docs/tasks/redirect-user.md)  
-[request Authorization](docs/tasks/manual-permission.md)  
-[Set Value](docs/tasks/set Value.md)  
+condition  
+run external workflow
+check MySQL query
+global Search
+
+##### communication  
 [Send Mail](docs/tasks/send-mail.md)  
-[Start](docs/tasks/start.md)  
+
+##### Special tools  
+[execute Expression with external Record](docs/tasks/external-exec-expression.md)  
+[execute Workflow with external Record](docs/tasks/external-exec-expression.md)  
+Custom condition
+
+##### EntityData Values  
+write EntityData  
+read EntityData  
+
+##### Importer  
+[CSV import](docs/tasks/csv-import.md)  
+
+##### Debugging  
 [stop PHP](docs/tasks/stop-php.md)  
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
