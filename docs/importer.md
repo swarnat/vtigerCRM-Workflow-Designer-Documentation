@@ -26,4 +26,4 @@ easiest way: create a task "execute expression with external record" to check if
 Use the two functions wf_setField() and wf_saveRecord() to directly interact with the record you found.
 I have created an example which will reflect this steps and search a Contact with the email from column1 and set the "title" field to the value from column 2.
 
-Download: [Example Importer](examples/import_workflow.bin?raw=true)
+Download: [Example Importer](../examples/import_workflow.bin?raw=true)
