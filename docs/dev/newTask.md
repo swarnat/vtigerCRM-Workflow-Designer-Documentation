@@ -177,5 +177,5 @@ This file is inserted into the PopUp of the Statistic-View of a task. It will be
 	
 Sample files:
 
-[1. set Values](examples/WfTaskSetter.php)
-[2. delay Task](examples/WfTaskDelay.php)
+[1. set Values](examples/WfTaskSetter.php?raw=true)  
+[2. delay Task](examples/WfTaskDelay.php?raw=true)
