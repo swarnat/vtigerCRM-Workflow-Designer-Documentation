@@ -30,12 +30,12 @@ $account_id->Accounts->tickersymbol
 ##### 3. Quick Helpers
 The blue Textfields have some special functions, which allows to make some simple calculations.
 
-Currently the only helper are:
-**$[Now]** – insert the current date in format (YYYY-MM-DD)
-**$[Now,-x]** – insert the current date -X days in format (YYYY-MM-DD)
-**$[Now,+x]** – insert the current date +X days in format (YYYY-MM-DD)
-**$[Now,0,'d.m.Y']** – insert the current date in format (DD-MM-YYYYY) You get possible placeholders here.
-**$[entityname, $id]** – Replace the ID with the Name of the Record (Accountname, Firstname & Lastname, …)
+Currently the only helper are:  
+**$[Now]** – insert the current date in format (YYYY-MM-DD)  
+**$[Now,-x]** – insert the current date -X days in format (YYYY-MM-DD)  
+**$[Now,+x]** – insert the current date +X days in format (YYYY-MM-DD)  
+**$[Now,0,'d.m.Y']** – insert the current date in format (DD-MM-YYYYY) You get possible placeholders here.  
+**$[entityname, $id]** – Replace the ID with the Name of the Record (Accountname, Firstname & Lastname, ...)  
 
 **At the moment this feature don’t allow calculations with a date within a field! Only with the current date.**
 
@@ -45,20 +45,22 @@ Currently the only helper are:
 
 A big improvement was the feature to insert a custom function in every default textfield. (blue icon)
 This makes it possible to generate very complex values by the the usage of lots of php functions, without the limitations to the functions (green) textfields.
-If the available visible space isn’t enough, please double click on a textfield. A popUp with a bigger textfield will be displayed.
+*If the available visible space isn’t enough, please double click on a textfield. A popUp with a bigger textfield will be displayed.*
 
 You only need to insert the following:
 
 	${ ... custom function ... return "content"; }}>
+	
 The return statement is imperative, because the complete block (from “${” to “}}>” ) will be replaced the the return value.
 This allows for example the insert of a rounded total sum of an invoice by:
 
 	${ return round($hdnGrandTotal, 2); }}>
+	
 Also this feature allows the calculation of dates from fields by:
 
-	${ $date = strtotime($fieldname); $new_date = strtotime($date, "+1 day"); return date("Y-m-D", $new_date); }}>
+	${ $date = strtotime($fieldname); $new_date = strtotime($date, "+1 day"); return date("Y-m-D", $new_date); }}>  
 
-	Please note, you have to use the related variable structure of custom functions ($field->module->field) and the blue Icon still supplies the default structure. ($field (module) field)
+*Please note, you have to use the related variable structure of custom functions ($field->module->field) and the blue Icon still supplies the default structure. ($field (module) field)*
 
 Other examples I will mention on a [separate custom function page](docs/custom-functions.md).
 
