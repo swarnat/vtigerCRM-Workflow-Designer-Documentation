@@ -9,13 +9,13 @@ Tasks
 [Create Invoice/Quote/...](docs/tasks/create-inventory.md)  
 
 ##### record management  
-create comment  
+[create Comment](docs/tasks/create-comment.md)  
 [Create Record](docs/tasks/create-record.md)  
 [Duplicate Record](docs/tasks/duplicate-record.md)  
 [Set Value](docs/tasks/set Value.md)  
-create Task
-create Event
-remove Record
+create Task  
+create Event  
+[remove Record](docs/tasks/remove-record.md)  
 
 ##### flow control  
 [authorization Request](docs/tasks/manual-permission.md)  
@@ -23,9 +23,9 @@ remove Record
 [exist related Record](docs/tasks/exist-related-record.md)  
 [redirect User to a URL](docs/tasks/redirect-user.md)  
 condition  
-run external workflow
-check MySQL query
-global Search
+run external workflow  
+check MySQL query  
+global Search  
 
 ##### communication  
 [Send Mail](docs/tasks/send-mail.md)  
@@ -33,7 +33,7 @@ global Search
 ##### Special tools  
 [execute Expression with external Record](docs/tasks/external-exec-expression.md)  
 [execute Workflow with external Record](docs/tasks/external-exec-expression.md)  
-Custom condition
+Custom condition  
 
 ##### EntityData Values  
 write EntityData  
