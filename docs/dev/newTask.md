@@ -166,12 +166,13 @@ class WfTaskBlanktask extends WfTask {
 	This could be used to debug your workflow, because every information will be stored together will a timestamp and the record.
 	
 ###### Smarty/templatefile.tpl
-	If you have defined a “file” value in the task configuration, the filename of the templatefile will be converted from this value. (.php will be replaced with .tpl)
+If you have defined a “file” value in the task configuration, the filename of the templatefile will be converted from this value. (.php will be replaced with .tpl)
 
-	This is a Smarty template file, which is automatically inserted inside the configuration form. The Save Button/Form will be generated automatically. Also if you use input field with names like “task[configurationvariable]” this will be recognized and saved automatically. This values could be read with $this->get(…) [see above]
-	Also the task variable will be applied automatically to this task. So you could work with the $task variable in template.
+This is a Smarty template file, which is automatically inserted inside the configuration form. The Save Button/Form will be generated automatically. Also if you use input field with names like “task[configurationvariable]” this will be recognized and saved automatically. This values could be read with $this->get(…) [see above]
+Also the task variable will be applied automatically to this task. So you could work with the $task variable in template.
+
 ###### Smarty/statisticfile.tpl
-	This file is inserted into the PopUp of the Statistic-View of a task. It will be loaded if you select a single user statistic.
+This file is inserted into the PopUp of the Statistic-View of a task. It will be loaded if you select a single user statistic.
 	
 	
 Sample files:
