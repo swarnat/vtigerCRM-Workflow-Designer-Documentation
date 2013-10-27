@@ -60,7 +60,7 @@ Also this feature allows the calculation of dates from fields by:
 
 	Please note, you have to use the related variable structure of custom functions ($field->module->field) and the blue Icon still supplies the default structure. ($field (module) field)
 
-Other examples I will mention on a separate custom function page.
+Other examples I will mention on a [separate custom function page](docs/custom-functions.md).
 
 ##### 5. use environment variables (Only Green Textfields)
 
